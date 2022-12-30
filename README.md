@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TRANSPORTADORA-FRONT
 
 Projeto com intuito de aprender programação e raciocínio lógico:
@@ -39,4 +38,3 @@ PIX: a4eabcdd-1899-48cc-b751-bfd8bb92e96e (chave aleatoria)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> master
