@@ -1,17 +1,16 @@
 import { Caminhao } from '@/model/Caminhao'
+import { Cidade } from '@/model/Cidade'
+import { Produto } from '@/model/Produto'
+import { User } from '@/model/User'
 import axios, { AxiosInstance } from 'axios'
 
-export class CaminhaoClient {
+export class ProdutoClient {
 
     private axiosClient: AxiosInstance
 
     constructor(){
         this.axiosClient = axios.create({
-<<<<<<< HEAD
-            baseURL: 'http://localhost:8080/api/caminhao',
-=======
-            baseURL: 'http://localhost:8090/api/caminhoes',
->>>>>>> master
+            baseURL: 'http://localhost:8090/api/produtos',
             headers: {
                 'Content-type': 'application/json'
             }
@@ -19,33 +18,33 @@ export class CaminhaoClient {
 
     }
 
-    public async findById(id: number) : Promise<Caminhao> {
+    public async findById(id: number) : Promise<Produto> {
         try{
-            return (await this.axiosClient.get<Caminhao>(`/${id}`)).data
+            return (await this.axiosClient.get<Produto>(`/${id}`)).data
         }catch(error: any){
             return Promise.reject(error.response)
         }
     }
 
-    public async findAll() : Promise<Caminhao[]> {
+    public async findAll() : Promise<Produto[]> {
         try {
-            return (await this.axiosClient.get<Caminhao[]>(``)).data
+            return (await this.axiosClient.get<Produto[]>(``)).data
         } catch (error: any) {
             return Promise.reject(error.response)
         }
     }
 
-    public async create(caminhao: Caminhao) : Promise<void> {
+    public async create(produto: Produto) : Promise<void> {
         try {
-            return (await this.axiosClient.post(``, caminhao)).data
+            return (await this.axiosClient.post(``, produto)).data
         } catch (error: any) {
             return Promise.reject(error.response)
         }
     }
 
-    public async update(caminhao: Caminhao) : Promise<void> {
+    public async update(produto: Produto) : Promise<void> {
         try {
-            return (await this.axiosClient.put(`/${caminhao.id}`, caminhao)).data
+            return (await this.axiosClient.put(`/${produto.id}`, produto)).data
         } catch (error: any) {
             return Promise.reject(error.response)
         }
