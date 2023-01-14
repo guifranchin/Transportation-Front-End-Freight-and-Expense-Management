@@ -1,40 +1,47 @@
-# TRANSPORTADORA-FRONT
+# Transportation Front-End: Freight and Expense Management
 
-Projeto com intuito de aprender programação e raciocínio lógico:
+This project is aimed at learning programming and logical reasoning. The goal of the Transportation front-end system for managing freight and expenses for a transportation company is to provide a user-friendly and intuitive interface for truckers and transportation administrators to manage their freight and expenses in an efficient manner. Truckers can register new freight and track the status of ongoing freight while the administrator can approve or cancel the freight submitted by truckers. Additionally, truckers can register expenses and track the status of ongoing expenses while the administrator can approve or cancel the expenses submitted by truckers. The front-end of the system was built using Vue.js and should be responsive and accessible, allowing users to access the system from any device and easily navigate its functionalities.
 
-O projeto Transportadora front-end do sistema de gerenciamento de frete e despesas para uma transportadora tem como objetivo fornecer uma interface amigável e intuitiva para os caminhoneiros e administradores da transportadora gerenciarem seus fretes e despesas de maneira eficiente. Os caminhoneiros podem cadastrar novos fretes e acompanhar o status dos fretes em andamento, enquanto o administrador pode aprovar ou cancelar os fretes enviados pelos caminhoneiros. Além disso, os caminhoneiros podem cadastrar despesas e acompanhar o status das despesas em andamento, enquanto o administrador pode aprovar ou cancelar as despesas enviadas pelos caminhoneiros. O front-end do sistema deve ser responsivo e acessível, permitindo que os usuários acessem o sistema de qualquer dispositivo e naveguem facilmente pelas suas funcionalidades.
+## Getting Started
 
-## Veja o desenvolvimento do projeto:
-# transportadora-front
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Project setup
+### Prerequisites
+
+- Node.js
+- Vue CLI
+- Basic understanding of Vue.js
+
+### Installing
+
+1. Clone the repository:
+```bash
+git clone https://github.com/<username>/transportation-frontend.git
 ```
+2. Install dependencies:
+```bash
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
+3. Run the project:
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-## 🤝 Contribuição
+## Built With
 
-Projeto aberto para ajuda!
+* [Vue.js](https://vuejs.org/) - JavaScript Framework
+* [Vue CLI](https://cli.vuejs.org/) - Vue.js command line interface
 
-Lembre de seguir os requisitos da licensa...
+## Contributing
 
-## 🔖 Licensa
-[![LICENSA](https://img.shields.io/badge/Custom_GPL_3.0-E58080?style=for-the-badge&logo=bookstack&logoColor=white)](/LICENSE)
+Please read [CONTRIBUTING.md](https://github.com/guifranchin/transportation-frontend/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## 💰 Donate
-PIX: a4eabcdd-1899-48cc-b751-bfd8bb92e96e (chave aleatoria)
+## Versioning
 
-<p align="center">Copyright © 2022 Guilherme Franchin</p>
-=======
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/guifranchin/transportation-frontend/tags).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Authors
+
+* **Guilherme** - *Initial work* - [guifranchin](https://github.com/guifranchin)
+
+See also the list of [contributors](https://github.com/guifranchin/transportation-frontend/contributors) who participated in this project.
